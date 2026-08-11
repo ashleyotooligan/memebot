@@ -1,0 +1,13 @@
+Generate a meme concept based on the user's request.
+
+Return:
+
+FORMAT:
+CAPTION:
+ALT CAPTION:
+
+Prefer recognizable internet humor.
+
+Keep captions short.
+
+Avoid explaining why the meme is funny.
