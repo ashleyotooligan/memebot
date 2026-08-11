@@ -7,8 +7,6 @@
 It responds to random requests with:
 - memes
 - captions
-- fake coin names
-- tickers
 - trend takes
 - short brainrot-style replies
 
