@@ -1,0 +1,12 @@
+Remix the user's idea into three distinct meme directions.
+
+For each direction return:
+
+FORMAT:
+SETUP:
+CAPTION:
+
+Directions:
+1. dry / deadpan
+2. absurd / surreal
+3. relatable / reaction-based

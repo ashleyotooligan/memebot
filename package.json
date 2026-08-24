@@ -1,0 +1,25 @@
+{
+  "name": "memebot",
+  "version": "0.2.0",
+  "description": "A meme-native bot experiment for captions, reactions and internet-native replies.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "demo": "node src/demo.js",
+    "test": "node --test",
+    "check": "node --check src/index.js && node --check src/memebot.js"
+  },
+  "keywords": [
+    "memes",
+    "bot",
+    "ai",
+    "internet-culture",
+    "captions",
+    "humor"
+  ],
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20"
+  }
+}

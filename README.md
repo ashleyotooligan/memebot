@@ -2,55 +2,71 @@
 
 ![Memebot](./memebot.png)
 
-**Memebot** is a meme-native AI bot built for the terminally online.
+**Memebot** is a meme-native bot experiment built around internet culture, reaction images, caption formats, absurd one-liners, and deliberately over-online humor.
 
-It responds to random requests with:
-- memes
-- captions
-- trend takes
-- short brainrot-style replies
+> memes in. brainrot out.
 
-## What it does
+The project is intentionally modular: prompts, meme formats, response logic, and personality rules all live in separate files so the bot can evolve without turning into one giant prompt.
 
-Memebot turns simple prompts into funny internet-native responses.
+## What Memebot does
 
-Examples:
-- “make me a ticker”
-- “caption this meme”
-- “what’s trending?”
-- “should I buy this dog coin?”
-- “make it more viral”
+- generates short meme captions
+- suggests reaction formats
+- rewrites normal text into meme-native language
+- creates absurd names and phrases
+- reacts to images and prompts
+- detects common request types
+- keeps replies short enough to screenshot
+- avoids over-explaining jokes
 
-## Personality
+## Example
 
-Memebot is:
-- short
-- ironic
-- online
-- slightly unhinged
-- meme-first
+```text
+you: make this more dramatic
 
-> chart says nothing. meme says everything.
+memebot:
+added:
+- unnecessary lore
+- one suspiciously specific detail
+- 40% more doom
+```
 
-## Example replies
+## Project structure
 
-**User:** make a meme 
-**Memebot:**  
-cooked one.  
-bad idea, good branding.
+```text
+memebot/
+├── .github/
+├── data/
+├── docs/
+├── prompts/
+├── src/
+├── tests/
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── package.json
+└── README.md
+```
 
-**User:** what’s trending?  
-**Memebot:**  
-dogs up  
-frogs up  
-utility down
+## Local demo
 
-**User:** make it more viral  
-**Memebot:**  
-done.  
-removed context.  
-added brainrot.
+Requires Node.js 20+.
 
----
+```bash
+npm install
+npm run demo
+npm test
+```
 
-Built for memes, internet culture, and terminally online posting.
+## Design principles
+
+1. **Meme first.** The punchline matters more than the explanation.
+2. **Short replies.** Most responses should fit in a screenshot.
+3. **Recognizable formats.** Use structures people understand immediately.
+4. **No fake confidence.** If context is missing, lean into the joke rather than invent facts.
+5. **Remixable.** Meme formats and reactions live in data files.
+
+## Current status
+
+Experimental prototype with a personality layer, request routing, response templates, meme-format data, prompt drafts, tests, and documentation.
+
+See [`docs/roadmap.md`](./docs/roadmap.md).

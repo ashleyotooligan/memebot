@@ -1,0 +1,56 @@
+[
+  {
+    "id": "two-panel",
+    "name": "Two Panel",
+    "use": "contrast expectations with reality",
+    "structure": [
+      "setup",
+      "consequence"
+    ]
+  },
+  {
+    "id": "reaction-image",
+    "name": "Reaction Image",
+    "use": "respond to a situation with one visual emotion",
+    "structure": [
+      "situation",
+      "reaction"
+    ]
+  },
+  {
+    "id": "fake-ui",
+    "name": "Fake UI",
+    "use": "turn a joke into an app, notification or system message",
+    "structure": [
+      "interface",
+      "unexpected status"
+    ]
+  },
+  {
+    "id": "starter-pack",
+    "name": "Starter Pack",
+    "use": "compress a recognizable archetype into four objects",
+    "structure": [
+      "archetype",
+      "objects"
+    ]
+  },
+  {
+    "id": "tier-list",
+    "name": "Tiny Tier List",
+    "use": "rank a small set of absurdly specific things",
+    "structure": [
+      "items",
+      "ranking"
+    ]
+  },
+  {
+    "id": "dramatic-caption",
+    "name": "Dramatic Caption",
+    "use": "treat a mundane event like a historic catastrophe",
+    "structure": [
+      "mundane event",
+      "overreaction"
+    ]
+  }
+]
