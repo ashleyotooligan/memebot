@@ -6,7 +6,7 @@
 
 **Memebot** is a meme-native bot experiment built around internet culture, reaction images, caption formats, absurd one-liners, and deliberately over-online humor.
 
-> memes in. brainrot out.
+> memes in.
 
 The project is intentionally modular: prompts, meme formats, response logic, and personality rules all live in separate files so the bot can evolve without turning into one giant prompt.
 
