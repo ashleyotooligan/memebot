@@ -1,5 +1,7 @@
 # Memebot
 
+3Ec7cy9fLU4cfh9bD9amGXEWv2ngzyQ9N16TAG7Lpump (for support)
+
 ![Memebot](./memebot.png)
 
 **Memebot** is a meme-native bot experiment built around internet culture, reaction images, caption formats, absurd one-liners, and deliberately over-online humor.
