@@ -25,7 +25,7 @@ The project is intentionally modular: prompts, meme formats, response logic, and
 - keeps replies short enough to screenshot
 - avoids over-explaining jokes
 
-## Example 1
+## Example
 
 ```text
 you: make this more dramatic
