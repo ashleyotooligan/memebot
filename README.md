@@ -1,6 +1,6 @@
 # Memebot
 
-3Ec7cy9fLU4cfh9bD9amGXEWv2ngzyQ9N16TAG7Lpump (for support)
+
 
 ![Memebot](./memebot.png)
 
