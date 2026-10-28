@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.0
+
+- added GrokBot tech to the server
+- updated interface
+- new data scraper
+- upload synced
+
 ## 0.2.0
 
 - split personality, routing and response templates into separate modules
