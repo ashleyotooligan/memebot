@@ -1,14 +1,18 @@
 {
   "name": "memebot",
-  "version": "0.2.0",
-  "description": "A meme-native bot experiment for captions, reactions and internet-native replies.",
+  "version": "0.3.0",
+  "description": "A meme-native creative workflow with a Grok Bot operator pack, shared briefs and reviewable drafts.",
   "type": "module",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
     "demo": "node src/demo.js",
     "test": "node --test",
-    "check": "node --check src/index.js && node --check src/memebot.js"
+    "check": "node --check src/index.js && node --check src/memebot.js && node scripts/check-grokbot.mjs",
+    "grokbot:demo": "node src/grokbot/cli.js demo",
+    "grokbot:packet": "node src/grokbot/cli.js packet",
+    "grokbot:build": "node scripts/build-grokbot.mjs",
+    "grokbot:screenshots": "node scripts/render-grokbot.mjs"
   },
   "keywords": [
     "memes",
@@ -16,7 +20,10 @@
     "ai",
     "internet-culture",
     "captions",
-    "humor"
+    "humor",
+    "grokbot",
+    "solana",
+    "creative-workflow"
   ],
   "license": "UNLICENSED",
   "engines": {
